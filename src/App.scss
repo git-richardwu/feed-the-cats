@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+$bg-color: #424242;
+$pink: #EB9199;
+$ivory: #FEFFEA;
+
+h1 {
+  color: $ivory;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Darumadrop One', cursive;
+  text-align: center;
+  font-size: 36px;
+  background: $bg-color;
+  overflow: hidden;
+}
+
+button {
+  background-color: $pink;
+  color: $ivory;
+  font-family: 'Darumadrop One', cursive;
+  margin: 5px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}

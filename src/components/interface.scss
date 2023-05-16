@@ -1,0 +1,138 @@
+$ivory: #FEFFEA;
+$pink: #EB9199;
+$black: #090C08;
+$green: #709176;
+$red: #F47174;
+$big: 50px;
+$rad: 25px;
+
+.mise-en-place {
+    position: relative;
+    width: 1800px;
+    height: 120px;
+    background-color: $ivory;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: $rad;
+    border: solid 5px $black;
+}
+
+input[type=text] {
+    width: 150px;
+    float: left;
+    font-family: 'Darumadrop One', cursive;
+    font-size: $big;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 5px solid $pink;
+    &:focus {
+        outline: none;
+    }
+}
+
+.conveyor-belt {
+    float: left;
+    height: 100px;
+    width: 1400px;
+    padding: 4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: $rad;
+}
+
+.plate {
+    width: 100px;
+    float: left;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: double 10px $black;
+}
+
+.trash {
+    display: inline-block;
+    height: 110px;
+    width: 120px;
+    color: $black;
+    background-color: white;
+    border-radius: $rad;
+    border: dashed 5px $pink;
+}
+
+.shake {
+    animation: shake-anim 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.fadeIn {
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.fadeOut {
+    animation: fade-out 1s ease-out;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+}
+
+@keyframes shake-anim {
+    0% {
+        transform: translate(1px, 1px);
+    }
+
+    10%, 90% {
+        transform: translate(-1px, -1px);
+    }
+
+    20%, 80% {
+        transform: translate(-1px, 0px);
+    }
+
+    30%, 50%, 70% {
+        transform: translate(2px, 2px);
+    }
+
+    40%, 60% {
+        transform: translate(1px, -1px);
+    }
+
+    100% {
+        transform: translate(1px, -1px);
+    }
+}
+
+.trash {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

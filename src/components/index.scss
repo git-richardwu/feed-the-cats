@@ -1,0 +1,72 @@
+$ivory: #FEFFEA;
+$pink: #EB9199;
+$black: #090C08;
+$green: #709176;
+$red: #F47174;
+$big: 50px;
+$rad: 25px;
+
+.wrapper {
+  overflow: hidden;
+}
+
+.screen {
+    position: relative;
+    width: 1800px;
+    height: 600px;
+    background-color: $ivory;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: $rad;
+    border: solid 5px $black;
+}
+
+.stats-list {
+    text-align: center;
+    font-size: $big;
+    p {
+        line-height: 0.7 
+    }
+}
+
+.transition-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $pink;
+    z-index: 2;
+}
+
+.order {
+    color: $black;
+    text-shadow: 2px 0 $ivory, -2px 0 $ivory, 0 2px $ivory, 0 -2px $ivory, 2px 2px $ivory, -2px -2px $ivory, 2px -2px $ivory, -2px 2px $ivory;
+}
+
+.info-display {
+    width: 1600px;
+    font-size: $big;
+    color: $ivory;
+    padding-top: 10px;
+    margin: 0 auto;
+    transition: color 0.75s;
+}
+
+.highlightWrong {
+    color: $red;
+}
+
+.highlightCorrect {
+    color: $green;
+}
+
+img,
+.order {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
