@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc307683.css",
-    "main.js": "/static/js/main.f8e38e22.js",
-    "static/js/787.d8f2ae6a.chunk.js": "/static/js/787.d8f2ae6a.chunk.js",
-    "static/media/pop2.png": "/static/media/pop2.e6750d3f5d5f74b9552c.png",
-    "static/media/pop1.png": "/static/media/pop1.52db2454af1f617743f7.png",
-    "index.html": "/index.html",
-    "main.dc307683.css.map": "/static/css/main.dc307683.css.map",
-    "main.f8e38e22.js.map": "/static/js/main.f8e38e22.js.map",
-    "787.d8f2ae6a.chunk.js.map": "/static/js/787.d8f2ae6a.chunk.js.map"
+    "main.css": "/feed-the-cats/static/css/main.dc307683.css",
+    "main.js": "/feed-the-cats/static/js/main.deac9067.js",
+    "static/js/787.d8f2ae6a.chunk.js": "/feed-the-cats/static/js/787.d8f2ae6a.chunk.js",
+    "static/media/pop2.png": "/feed-the-cats/static/media/pop2.e6750d3f5d5f74b9552c.png",
+    "static/media/pop1.png": "/feed-the-cats/static/media/pop1.52db2454af1f617743f7.png",
+    "index.html": "/feed-the-cats/index.html",
+    "main.dc307683.css.map": "/feed-the-cats/static/css/main.dc307683.css.map",
+    "main.deac9067.js.map": "/feed-the-cats/static/js/main.deac9067.js.map",
+    "787.d8f2ae6a.chunk.js.map": "/feed-the-cats/static/js/787.d8f2ae6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc307683.css",
-    "static/js/main.f8e38e22.js"
+    "static/js/main.deac9067.js"
   ]
 }
