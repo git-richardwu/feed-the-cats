@@ -28,3 +28,17 @@ button {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.how-to-play {
+  font-size: 25px;
+  color: $ivory;
+  margin-top: 400px;
+  .instructions {
+    text-decoration: underline;
+    text-decoration-color: $pink;
+    font-size: 30px;
+  }
+  span {
+    color: $pink;
+  }
+}

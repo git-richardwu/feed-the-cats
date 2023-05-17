@@ -11,6 +11,18 @@ export default function StartingScreen() {
             <Link to="/play">
                 <button>start game</button>
             </Link>
+            <div className='how-to-play'>
+                <div className='instructions'>Instructions: </div>
+                <div>
+                    <span>type in text box</span> to assemble dish
+                    </div>
+                <div>
+                    <span>press space bar</span> to create dish
+                    </div>
+                <div>
+                    <span>drag and drop</span> dish to feed
+                </div>
+            </div>    
             <motion.div
                 className="transition-block"
                 initial={{ scaleX: 1 }}
