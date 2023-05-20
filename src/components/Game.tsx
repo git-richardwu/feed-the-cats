@@ -13,11 +13,11 @@ const imageWidth = 120;
 const rectangleWidth = 1700;
 const rectangleHeight = 500;
 const maxPatrons = 12;
-const duration = 30;
+const duration = 10;
 const numOfIngredients = 4;
 const penalty = 5;
 const respite = 3;
-const ingredients = 'bcdfghqrstvwxyz';
+const ingredients = 'qwrtypsdfhjklzxcvbnm';
 const choices = ["🍎", "🍌", "🍐", "🍓", "🍉", "🍍", "🥝", "🥭", "🍑", "🥒", "🥕", "🍖", "🍗", "🥩", "🥓", "🍠", "🦐", "🍚", "🥫"];
 
 interface occupantObject {
